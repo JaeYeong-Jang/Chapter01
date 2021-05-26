@@ -17,7 +17,7 @@ public class Ex03 {
 		else if ( W_time <= 8 ) {
 			System.out.println("임금은 " + W_time*10000 + "원 입니다.");
 		}
-		else if ( W_time > 8 ) {
+		else {
 			System.out.println("임금은 " + ((10000*8)+((W_time-8)*12000)) + "원 입니다.");
 		}
 		
